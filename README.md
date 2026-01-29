@@ -80,7 +80,6 @@ Network Security
 
 -- VLAN isolation between departments and sites
 -- ACLs and port security enhance overall security
----
 
 ## Screenshots
 
