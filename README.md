@@ -2,17 +2,17 @@
 A complete simulation of a headquarters and branch office network with VLANs, OSPF routing, port security, SSH access, DHCP, and DNS services.
 
 
-🗺️ Network Topology
+## Table of Contents
+- [Network Topology](#network-topology)
+- [Key Features](#key-features)
+- [Technologies Used](#technologies-used)
+- [Configuration Highlights](#configuration-highlights)
+- [Screenshots](#screenshots)
+- [How to Use](#how-to-use)
+- [Future Improvements](#future-improvements)
+- [Contributing](#contributing)
+- [License](#license)
 
-The network consists of two sites connected via a WAN link:
-
-Side A – Headquarters (HQ)
-
-Side B – Branch Office
-
-The HQ hosts centralized network services (DHCP and DNS), while both sites are
-
-segmented into multiple VLANs based on organizational departments.
 
 ⭐ Key Features
 
