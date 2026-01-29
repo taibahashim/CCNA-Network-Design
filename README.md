@@ -1,6 +1,6 @@
 Enterprise Headquarters & Branch Network Infrastructure
 
-##📘 Overview
+📘 Overview
 
 This project demonstrates the design and implementation of a secure enterprise
 Headquarters–Branch network based on CCNA-level networking concepts.
@@ -8,7 +8,7 @@ The network uses department-based VLAN segmentation, centralized services,
 dynamic routing, and multiple security controls to ensure efficient and secure
 communication between the Headquarters and Branch offices.
 
-##🗺️ Network Topology
+🗺️ Network Topology
 
 The network consists of two sites connected via a WAN link:
 Side A – Headquarters (HQ)
@@ -16,7 +16,7 @@ Side B – Branch Office
 The HQ hosts centralized network services (DHCP and DNS), while both sites are
 segmented into multiple VLANs based on organizational departments.
 
-##⭐ Key Features
+⭐ Key Features
 
 Multi-site enterprise network design (HQ & Branch)
 Department-based VLAN segmentation
