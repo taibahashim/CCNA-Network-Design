@@ -17,6 +17,7 @@ The HQ hosts centralized network services (DHCP and DNS), while both sites are
 segmented into multiple VLANs based on organizational departments.
 
 ##⭐ Key Features
+
 Multi-site enterprise network design (HQ & Branch)
 Department-based VLAN segmentation
 Inter-VLAN routing (Router-on-a-Stick)
@@ -27,7 +28,8 @@ Access control using ACLs
 Switch port security implementation
 End-to-end connectivity testing and verification
 
-## 🛠️ Technologies Used
+🛠️ Technologies Used
+
 Cisco Packet Tracer
 Cisco Routers and Switches
 VLAN & Trunking (IEEE 802.1Q)
@@ -39,7 +41,8 @@ Access Control Lists (ACL)
 SSH (Secure Shell)
 Switch Port Security
 
-## ⚙️ Configuration Highlights
+⚙️ Configuration Highlights
+
 🔹VLAN Segmentation
 VLANs are assigned per department to isolate broadcast domains
 Separate VLANs are used for user traffic and server services
