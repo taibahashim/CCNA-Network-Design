@@ -1,16 +1,6 @@
-Enterprise Headquarters & Branch Network Infrastructure
+# Enterprise Network Project
+A complete simulation of a headquarters and branch office network with VLANs, OSPF routing, port security, SSH access, DHCP, and DNS services.
 
-📘 Overview
-
--This project demonstrates the design and implementation of a secure enterprise
-
-Headquarters–Branch network based on CCNA-level networking concepts.
-
-The network uses department-based VLAN segmentation, centralized services,
-
-dynamic routing, and multiple security controls to ensure efficient and secure
-
-communication between the Headquarters and Branch offices.
 
 🗺️ Network Topology
 
