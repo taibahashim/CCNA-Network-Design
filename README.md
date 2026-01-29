@@ -1,8 +1,11 @@
 # Enterprise Network Project
-A complete simulation of a headquarters and branch office network with VLANs, OSPF routing, port security, SSH access, DHCP, and DNS services.
 
+A complete simulation of a headquarters and branch office network, featuring department-based VLANs, inter-VLAN routing, OSPF dynamic routing, port security, SSH remote access, DHCP, and DNS services. The project demonstrates network design, configuration, and basic security measures in a professional enterprise environment.
+
+---
 
 ## Table of Contents
+
 - [Network Topology](#network-topology)
 - [Key Features](#key-features)
 - [Technologies Used](#technologies-used)
@@ -13,47 +16,39 @@ A complete simulation of a headquarters and branch office network with VLANs, OS
 - [Contributing](#contributing)
 - [License](#license)
 
+---
+
 ## Network Topology
+
+*The network consists of a Headquarters (Site A) and a Branch Office (Site B), connected via OSPF routing. Each site contains multiple VLANs segregated by department.*
+
 ![Network Topology](screenshots/Network_Topology.png)
 
+---
+
 ## Key Features
-- VLAN segmentation per department
-- Inter-VLAN routing using OSPF
-- Port security on all access ports
-- SSH access restricted via ACL
-- DHCP and DNS services
-- Access control for site-to-site traffic (future ACL implementation)
+
+- Department-based VLAN segmentation (Admin, HR, Sales, Finance, Server Room)  
+- Inter-VLAN routing using router-on-a-stick  
+- OSPF dynamic routing between Headquarters and Branch  
+- Port security on all switch access ports  
+- SSH remote access restricted with ACL  
+- DHCP and DNS services for all VLANs  
+- VLAN isolation and ACL-based site access control  
+
+---
 
 ## Technologies Used
-- Cisco Packet Tracer
-- VLANs, ACLs, Port Security
-- SSH remote access
-- OSPF routing protocol
-- DHCP and DNS services
+
+- Cisco Packet Tracer  
+- VLANs and Subnetting  
+- Router-on-a-stick Inter-VLAN Routing  
+- OSPF Routing Protocol  
+- Port Security  
+- SSH Remote Access with ACL  
+- DHCP and DNS Services  
+
+---
 
 ## Configuration Highlights
 
-VLAN Segmentation
-
--- VLAN 10: Admin
-
--- VLAN 20: HR
-
--- VLAN 30: Sales
-
--- VLAN 40: Finance
-
--- VLAN 50: Admin (Branch)
-
--- VLAN 60: HR (Branch)
-
--- VLAN 70: Sales (Branch)
-
--- VLAN 80: Finance (Branch)
-
--- VLAN 90: Server Room
-
-Extended ACLs to control inter-VLAN traffic
-SSH enabled on routers for secure remote access
-ACL applied to VTY lines to restrict SSH access to the Admin workstation only
-Port security enabled on access switch ports
