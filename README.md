@@ -44,18 +44,22 @@ Switch Port Security
 ⚙️ Configuration Highlights
 
 🔹VLAN Segmentation
+
 VLANs are assigned per department to isolate broadcast domains
 Separate VLANs are used for user traffic and server services
 
 🔹Routing
+
 OSPF is implemented to enable dynamic routing between HQ and Branch
 Inter-VLAN routing is configured on the HQ router
 
 🔹Network Services
+
 DHCP and DNS services are centralized at the Headquarters
 DHCP pools are created for each VLAN
 
 🔹Security
+
 VLAN isolation to limit unauthorized inter-department communication
 Extended ACLs to control inter-VLAN traffic
 SSH enabled on routers for secure remote access
